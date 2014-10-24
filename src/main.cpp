@@ -88,6 +88,9 @@ int main()
 {
 	game foo('x');	//start a game with x;
 	tictac fop;
-	//run minimax on fop to return what?
+	//run minimax on fop to return what?, I probably need some more data structures
+	//I need to build tree and find a way to know current state, traverse based on opponent's move et cetera
+	//Also, now I wonder about the memory contraints
+	//Would it be a good move to make the program use multi-processing since this stage?
 	return 0;
 }
